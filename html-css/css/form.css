@@ -10,60 +10,104 @@ body{
   color: #333;
 }
 
-.outer-container{
-    background-color: #111827;
-    padding: 2px;
-    max-width: 800px;
-    margin: 0 auto;
+
+.form-2{
+  background-color:#1e293b;
+  color: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
 }
 
-.inner-container{
-    background-color: #123;
-    border-radius: 10px;
-    margin: 10px;
-    display:flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-between;
-
-
-    background-image: repeating-linear-gradient(
-    135deg,
-    rgba(186, 85, 211, 0.3),
-    rgba(186, 85, 211, 0.3) 3px,
-    transparent 3px,
-    transparent 6px
-    );
+.form-group{
+margin: 10px;
+display: flex;
+flex-direction: column;
 }
 
-.item-button-4-4{
-    width: calc(25% - 10px);
-    height: 40px;
+.email,.password{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #334155;
+  color: #94a3b8;
+  box-sizing: border-box;
+}
+
+.sign-in{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.sign-in:hover {
+  background-color: #2563eb;
+}
+
+a{
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+/* .form-1{
+    background-color: #1e293b;
     color: white;
-    background-color: #d946ef;
-    border: none;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
     border-radius: 10px;
-    cursor: pointer;
 }
 
+.form-table{
+    width: 100%;
+    border-spacing: 10px;
 
-.item-button-2-2{
-    width: calc(50% - 10px);
+}
+
+.form-table th,.form-table td{
+    padding: 8px;
+    text-align: left;
+}
+
+.email, .password{
+    background-color: #334155;
+    color:#94a3b8;
+    text-align: left;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
     height: 40px;
-    color: white;
-    background-color: #d946ef;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
-
-.item-button-6-1{
-    width: calc(15% - 10px);
-    height: 40px;
+.sign-in{
+    background-color: #3b82f6;
     color: white;
-    background-color: #d946ef;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 6px;
     cursor: pointer;
+    margin-top: 10px;
 }
+
+.sign-in:hover {
+    background-color: #2563eb;
+  }
+
+  a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  } */
